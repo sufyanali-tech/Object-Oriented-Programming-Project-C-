@@ -1,2 +1,2 @@
-# Object-Oriented-Programming-Project-with-C-
+# Object-Oriented-Programming-Project-with-C++
 University OOP Project in C++ 
