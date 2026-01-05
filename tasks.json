@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-multiple-files",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "main.cpp",
+        "Login.cpp",
+        "Flight_Type.cpp",
+        "FirstClass_TicketPrint.cpp",
+        "FirstClass_FlightSum_Seat.cpp",
+        "FirstClass_Fares.cpp",
+        "FirstClass_Person.cpp",
+        "Bussiness_Person.cpp",
+        "Bussiness_FlightSum_Seat.cpp",
+        "Bussiness_Fares.cpp",
+        "Bussiness_TicketPrint.cpp",
+        "Economy_FlightSum_Seat_Select.cpp",
+        "Economy_Fares.cpp",
+        "Economy_TicketPrint.cpp",
+        "Economy_Person.cpp",
+        "-o",
+        "program",
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
